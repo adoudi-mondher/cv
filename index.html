@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondher Adoudi - Développement Web & Entreprenariat</title>
+    <meta name="description" content="Développeur web débutant en quête d\'alternance. Passionné par la création web. Découvrez mon profil et contactez-moi pour collaborer.">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <script src="js/global.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container d-flex">
+            <div class="logo">
+                <a href="../">Mondher Adoudi</a>
+            </div>
+            <nav class="navbar">
+                <ul class="menu list-unstyled">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#about">About-me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="right">
+                <ul class="socials list-unstyled">
+                    <li>
+                        <a href="https://www.linkedin.com/in/mag-dev/" name="linkedin" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=352691702727" name="whatsapp" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <button name="menuBurger" class="burger"><span class="bar"></span></button>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="grid">
+                <div class="hero__item left">
+                    <span>Développeur Web - Entrepreneur IT</span>
+                    <h1 class="title">Bonjour, je suis Mondher !</h1>
+                    <p>Je suis actuellement ouvert à une opportunité d'alternance, 
+                        où je pourrais continuer à développer mes compétences et 
+                        apporter une contribution significative en tant que développeur web.
+                    </p>
+                </div>
+                <div class="hero__item right">
+                    <div class="hero__avatar">
+                        <img src="img/avatar.png" alt="Avatar Mondher Adoudi - Développeur web & entrepreneur IT">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <img src="img/person.jpg" alt="Portrait Mondher Adoudi - Développeur web & entrepreneur IT">
+                </div>
+                <div class="grid__item">
+                    <h2 class="section-title">About-me</h2>
+                    <p>
+                        Bonjour ! Je suis un développeur web passionné, actuellement en recherche active d'une alternance pour acquérir les compétences nécessaires afin de créer des sites web captivants.
+                        Je me suis plongé dans différents languages tels que <strong> HTML, CSS, JS et React</strong>.<br>
+                        Mon apprentissage ne se limite pas uniquement au côté client, j'explore également des technologies back-end comme <strong> Node JS et 
+                        Express</strong>, ce qui me permet de mieux comprendre l'ensemble du processus de développement d'une application web. <br>
+                        Je suis enthousiaste à l'idée de mettre en pratique mes compétences et de contribuer à des projets concrets. <br> 
+                        Mon objectif est de continuer à évoluer en tant que développeur web en m'appuyant sur ma passion pour la technologie et 
+                        en cherchant constamment à m'améliorer. <br>
+                        Mon portfolio représente ma démarche d'apprentissage, mes projets personnels et les compétences que j'acquière au fur et à mesure.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes services</h2>
+                <p>
+                </p>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 384 512">
+                                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/>
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>Intégration web</h3>
+                            <p>
+                                Je transformer vos designs ou maquettes en code <strong> HTML, CSS et JavaScript</strong> pour créer des site web fonctionnels et interactifs.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 512 512">
+                                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM288 176c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 48.8 46.5 111.6 68.6 138.6c6 7.3 16.8 7.3 22.7 0c22.1-27 68.6-89.8 68.6-138.6zm-112 0a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/>
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>Référencement naturel</h3>
+                            <p>
+                                Avec le <strong>SEO</strong> (Search Engine Optimization) j'optimise votre site web pour améliorer sa visibilité et sa position dans 
+                                les résultats des moteurs de recherche tels que Google, Bing, ou Yahoo, etc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 448 512">
+                                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path d="M448 161v-21.3l-28.5-8.8-2.2-10.4 20.1-20.7L427 80.4l-29 7.5-7.2-7.5 7.5-28.2-19.1-11.6-21.3 21-10.7-3.2-7-26.4h-22.6l-6.2 26.4-12.1 3.2-19.7-21-19.4 11 8.1 27.7-8.1 8.4-28.5-7.5-11 19.1 20.7 21-2.9 10.4-28.5 7.8-.3 21.7 28.8 7.5 2.4 12.1-20.1 19.9 10.4 18.5 29.6-7.5 7.2 8.6-8.1 26.9 19.9 11.6 19.4-20.4 11.6 2.9 6.7 28.5 22.6.3 6.7-28.8 11.6-3.5 20.7 21.6 20.4-12.1-8.8-28 7.8-8.1 28.8 8.8 10.3-20.1-20.9-18.8 2.2-12.1 29.1-7zm-119.2 45.2c-31.3 0-56.8-25.4-56.8-56.8s25.4-56.8 56.8-56.8 56.8 25.4 56.8 56.8c0 31.5-25.4 56.8-56.8 56.8zm72.3 16.4l46.9 14.5V277l-55.1 13.4-4.1 22.7 38.9 35.3-19.2 37.9-54-16.7-14.6 15.2 16.7 52.5-38.3 22.7-38.9-40.5-21.7 6.6-12.6 54-42.4-.5-12.6-53.6-21.7-5.6-36.4 38.4-37.4-21.7 15.2-50.5-13.7-16.1-55.5 14.1-19.7-34.8 37.9-37.4-4.8-22.8-54-14.1.5-40.9L54 219.9l5.7-19.7-38.9-39.4L41.5 125l53.6 14.1 15.2-15.7-15.2-52 36.4-20.7 36.8 39.4L191 84l11.6-52H245l11.6 45.9L234 72l-6.3-1.7-3.3 5.7-11 19.1-3.3 5.6 4.6 4.6 17.2 17.4-.3 1-23.8 6.5-6.2 1.7-.1 6.4-.2 12.9C153.8 161.6 118 204 118 254.7c0 58.3 47.3 105.7 105.7 105.7 50.5 0 92.7-35.4 103.2-82.8l13.2.2 6.9.1 1.6-6.7 5.6-24 1.9-.6 17.1 17.8 4.7 4.9 5.8-3.4 20.4-12.1 5.8-3.5-2-6.5-6.8-21.2z"/>
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>Interface d'adminstration</h3>
+                            <p>
+                                Je développe également votre <strong>back-end</strong>, aussi appelé "côté serveur", la partie d'une application web qui 
+                                traite les données et les requêtes envoyées par les utilisateurs.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 512 512">
+                                <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/>
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3>Responsive design</h3>
+                            <p>
+                                Je crée des sites web et des applications qui s'adaptent automatiquement à différents types d'appareils et 
+                                de tailles d'écran. L'objectif est d'offrir une <strong>expérience utilisateur</strong> optimale quel que soit le support utilisé.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+       <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes compétences</h2>
+                <p>
+                </p>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+                    <h3>Soft skills</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <h4>Capacité d'apprentissage</h4>
+                            <p></p>
+                        </li>
+                        <li>
+                            <h4>Travail en équipe</h4>
+                            <p></p>
+                        </li>
+                        <li>
+                            <h4>Communication</h4>
+                            <p></p>
+                        </li>
+                        <li>
+                            <h4>Adaptabilité</h4>
+                            <p></p>
+                        </li>
+                        <li>
+                            <h4>Curiosité</h4>
+                            <p></p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="grid__item">
+                    <h3>Compétences en développement</h3>
+                    <div class="progressbar">
+                        <div class="bar" data-width="75">HTML</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" data-width="50">CSS</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" data-width="50">JS</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" data-width="32">Mongo DB</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" data-width="23">Node JS</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" data-width="23">Express</div>
+                    </div>
+                    <div class="progressbar">
+                        <div class="bar" data-width="17">React</div>
+                    </div>
+
+                    <h3>Autres Compétences</h3>
+                    <div class="progressbar">
+                        <div class="bar" data-width="75">CANVA</div>
+                    </div>
+                    
+                    <div class="progressbar">
+                        <div class="bar" data-width="25">Git</div>
+                    </div>
+
+                </div>
+            </div>
+       </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p>
+                </p>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=1" alt="Projet 1" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="carde__title"></h3>
+                            <p class="category">Projet en cours</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=3" alt="Projet 1" class="card__image">
+                        <div class="card__inner">
+                            <h3 class="carde__title"></h3>
+                            <p class="category">Projet en cours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <p>
+        </p>
+      </div>
+
+      <form action="https://formsubmit.co/adoudi.mondher@gmail.com" method="POST" class="form" onsubmit="return validateForm()">
+        <input type="hidden" name="_captcha" value="false">
+
+        <label for="firstname">
+          <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
+        </label>
+        <label for="lastname">
+          <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+        </label>
+        <label for="email">
+          <input type="email" name="email" id="email" placeholder="Email" required>
+        </label>
+        <textarea name="message" id="message" placeholder="Message" required></textarea>
+        <input type="submit" class="btn" value="Envoyer">
+      </form>
+    </div>
+
+  </section>
+
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <p>Mondher Adoudi</p>
+                </div>
+                <div class="grid__item">
+                    <ul class="socials list-unstyled">
+                        <li>
+                            <a href="https://www.linkedin.com/in/mag-dev/" name="linkedin" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                    <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=352691702727" name="whatsapp" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                    <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__item">
+                    <p>Copyright @ 2023 - mag-yatoo.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
